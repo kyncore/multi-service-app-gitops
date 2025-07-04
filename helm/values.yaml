@@ -5,7 +5,7 @@ services:
     replicaCount: 1
     image:
       repository: kyncore/multi-service-frontend
-      tag: f3b8e4713504ca85e12cfbaa2dde752eeb6d04e4
+      tag: 311ccad8e75f679378ebecbf91b7ad091ea4c88a
       pullPolicy: IfNotPresent
     containerPort: 80
     servicePort: 80
@@ -14,7 +14,7 @@ services:
     replicaCount: 1
     image:
       repository: kyncore/multi-service-backend
-      tag: f3b8e4713504ca85e12cfbaa2dde752eeb6d04e4
+      tag: 311ccad8e75f679378ebecbf91b7ad091ea4c88a
       pullPolicy: IfNotPresent
     containerPort: 3001
     servicePort: 3001
